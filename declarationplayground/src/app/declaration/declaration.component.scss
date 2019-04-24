@@ -1,0 +1,132 @@
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.declarationType {
+
+}
+
+.declarationTypeLabel{
+
+}
+
+.declarationTypeInput {
+width: 35px;
+}
+
+.traderRefInput {
+  width: 265px;
+}
+
+.traderRefLabel{
+  margin-left: 100px;
+}
+
+.badgeLabel{
+  margin-left: 100px;
+}
+
+.badgeInput {
+  width: 100px;
+}
+
+.partyContainer {
+  border: red 2px solid;
+}
+
+.exporterContainer{
+  margin-top: 20px;
+  width: 650px;
+  border: grey 3px solid;
+  border-radius: 5px;
+}
+
+.importerContainer {
+  margin-top: 20px;
+  width: 650px;
+  border: grey 3px solid;
+  border-radius: 5px;
+}
+
+.matPanelTitle {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.shortCodeLabel{
+  margin-left: 10px;
+}
+
+.shortCodeInput {
+  margin-top: 1px;
+  margin-left: 3px;
+}
+
+.nameLabel {
+  margin-left: 10px;
+}
+
+.nameInput {
+  margin-top: 1px;
+  margin-left: 3px;
+}
+
+.partyStreet {
+  width: 85%;
+}
+
+.cityContainer{
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.cityInput {
+  width: 88.6%;
+}
+
+.partyPostCodeCountryCodeContainer {
+  margin-top: 5px;
+  margin-left: -10px;
+}
+
+.countryCodeLabel {
+  margin-left: 225px;
+}
+
+.countryCodeInput {
+  width: 25px;
+}
+
+.partyExpansionPanel {
+  width: 650px;
+  margin: px;
+}
+
+.flex-item-declarationPary-left {
+  width: 600px;
+  flex: 0 0 475;
+}
+
+@media all and (max-width: 800px) {
+  .flex-item-declarationPary-left {
+    width: 350px;
+    flex: 0 0 350px;
+  }
+}
+
+.flex-item-declarationPary-right {
+  width: 475px;
+  flex: 0 0 475px;
+  margin-left: 60px;
+}
+
+@media all and (max-width: 800px) {
+  .flex-item-declarationPary-right {
+    width: 350px;
+    flex: 0 0 350px;
+  }
+}
