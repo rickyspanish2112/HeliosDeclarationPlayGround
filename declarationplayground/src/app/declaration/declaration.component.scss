@@ -69,39 +69,26 @@
     width: 212px;
 }
 
-.partyAddressContainer{
+/* .partyAddressContainer{
  width: 80%;
 }
 
 .party-flex-container {
   display: flex;
   align-items: stretch;
-}
+} */
 
-.partyAdressLabel{
+/* .partyAdressLabel{
   flex-grow: 1;
   text-align: right;
   margin-right: 3px;
 }
 
-.partInput{
+.partyInput{
   flex-grow: 8;
-}
+} */
 
-.cityLabel {
-    border-color: red;
-    border-style: solid;
-    border-width: 1px;
-    width: 200px;
-}
-
-.cityInput {
-    width: 99%;
-
-
-}
-
-.partyPostCodeCountryCodeContainer {
+/* .partyPostCodeCountryCodeContainer {
     margin-top: 5px;
     margin-left: -10px;
 }
@@ -112,69 +99,10 @@
 
 .countryCodeInput {
     width: 25px;
-}
+} */
 
 .partyExpansionPanel {
     width: 600px;
     margin: px;
 }
 
-.flex-item-declarationPary-left {
-    width: 600px;
-    flex: 0 0 475;
-}
-
-@media all and(max-width: 800px) {
-    .flex-item-declarationPary-left {
-        width: 350px;
-        flex: 0 0 350px;
-    }
-}
-
-.flex-item-declarationPary-right {
-    width: 475px;
-    flex: 0 0 475px;
-    margin-left: 60px;
-}
-
-@media all and(max-width: 800px) {
-    .flex-item-declarationPary-right {
-        width: 350px;
-        flex: 0 0 350px;
-    }
-}
-
-.tg {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border-color: #aabcfe;
-}
-.tg td {
-    padding: 10px 5px;
-    border-style: solid;
-    border-width: 1px;
-    overflow: hidden;
-    word-break: normal;
-    border-color: #aabcfe;
-    color: #669;
-    background-color: #e8edff;
-}
-.tg th {
-    padding: 10px 5px;
-    border-style: solid;
-    border-width: 1px;
-    overflow: hidden;
-    word-break: normal;
-    border-color: #aabcfe;
-    color: #039;
-    background-color: #b9c9fe;
-}
-
-.tg .tg-lqy6 {
-    text-align: right;
-    vertical-align: top
-}
-.tg .tg-0lax {
-    text-align: left;
-    vertical-align: top;
-}

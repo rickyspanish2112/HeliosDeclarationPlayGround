@@ -9,12 +9,14 @@ import { LookupdialogComponent } from './declaration/lookupdialog/lookupdialog.c
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './shared/material/material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PartyaddresscontrolComponent } from './declaration/partyaddresscontrol/partyaddresscontrol.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DeclarationComponent,
-    LookupdialogComponent
+    LookupdialogComponent,
+    PartyaddresscontrolComponent
   ],
   imports: [
     BrowserModule,

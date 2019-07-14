@@ -1,6 +1,12 @@
 <mat-accordion>
-  <mat-expansion-panel [expanded]="displayTypes === true" (opened)="(displayTypes === true)">
-    <mat-expansion-panel-header [collapsedHeight]="customCollapsedHeight" [expandedHeight]="customExpandedHeight">
+  <mat-expansion-panel
+    [expanded]="displayTypes === true"
+    (opened)="(displayTypes === true)"
+  >
+    <mat-expansion-panel-header
+      [collapsedHeight]="customCollapsedHeight"
+      [expandedHeight]="customExpandedHeight"
+    >
       <mat-panel-title>{{ pageTitle }}</mat-panel-title>
     </mat-expansion-panel-header>
     <div class="declarationType">
@@ -22,28 +28,15 @@
             <mat-expansion-panel-header>
               <mat-panel-title class="matPanelTitle">
                 Exporter [02]
-                <label for="shortCode" class="shortCodeLabel">Short Code: </label>
+                <label for="shortCode" class="shortCodeLabel"
+                  >Short Code:
+                </label>
                 <input matInput aria-label="shortCode" class="shortCodeInput" />
                 <label for="name" class="nameLabel">Name: </label>
                 <input matInput aria-label="name" class="nameInput" />
               </mat-panel-title>
             </mat-expansion-panel-header>
-            <div class="partyAddress">
-              <label for="steet1" class="cityLabel"> Street 1: </label>
-              <input matInput aria-label="steet1" class="partyStreet" />
-              <div class="cityContainer">
-                <label for="city"> City: </label>
-                <input matInput aria-label="city" class="cityInput" />
-              </div>
-              <div class="partyPostCodeCountryCodeContainer">
-                <label for="postCode"> Post Code: </label>
-                <input matInput aria-label="postCode" />
-                <label for="countryCode" class="countryCodeLabel">
-                  Country Code:
-                </label>
-                <input matInput aria-label="countryCode" class="countryCodeInput" />
-              </div>
-            </div>
+            <app-partyaddresscontrol></app-partyaddresscontrol>
           </mat-expansion-panel>
         </mat-accordion>
       </div>
@@ -53,28 +46,15 @@
             <mat-expansion-panel-header>
               <mat-panel-title class="matPanelTitle">
                 Importer [08]
-                <label for="shortCode" class="shortCodeLabel">Short Code: </label>
+                <label for="shortCode" class="shortCodeLabel"
+                  >Short Code:
+                </label>
                 <input matInput aria-label="shortCode" class="shortCodeInput" />
                 <label for="name" class="nameLabel">Name: </label>
                 <input matInput aria-label="name" class="nameInput" />
               </mat-panel-title>
             </mat-expansion-panel-header>
-            <div class="partyAddress">
-              <label for="steet1" class="cityLabel"> Street 1: </label>
-              <input matInput aria-label="steet1" class="partyStreet" />
-              <div class="cityContainer">
-                <label for="city"> City: </label>
-                <input matInput aria-label="city" class="cityInput" />
-              </div>
-              <div class="partyPostCodeCountryCodeContainer">
-                <label for="postCode"> Post Code: </label>
-                <input matInput aria-label="postCode" />
-                <label for="countryCode" class="countryCodeLabel">
-                  Country Code:
-                </label>
-                <input matInput aria-label="countryCode" class="countryCodeInput" />
-              </div>
-            </div>
+            <app-partyaddresscontrol></app-partyaddresscontrol>
           </mat-expansion-panel>
         </mat-accordion>
       </div>
@@ -84,21 +64,17 @@
             <mat-expansion-panel-header>
               <mat-panel-title class="matPanelTitle">
                 Declarant [14]
-                <label for="shortCode" class="shortCodeLabel">Short Code: </label>
+                <label for="shortCode" class="shortCodeLabel"
+                  >Short Code:
+                </label>
                 <input matInput aria-label="shortCode" class="shortCodeInput" />
                 <label for="name" class="nameLabel">Name: </label>
                 <input matInput aria-label="name" class="nameInput" />
               </mat-panel-title>
             </mat-expansion-panel-header>
-            <div class="partyAddressContainer">
-                <div class="party-flex-container">
-                    <label class="partyAdressLabel">Street:</label>
-                    <input  class="partInput">
-                    <label class="partyAdressLabel">City:</label>
-                    <input  class="partInput">
-                  </div>
-            </div>
+            <app-partyaddresscontrol></app-partyaddresscontrol>
           </mat-expansion-panel>
         </mat-accordion>
       </div>
-    </div>
+    </div> </mat-expansion-panel
+></mat-accordion>
