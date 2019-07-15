@@ -6,16 +6,21 @@
     justify-content: space-between;
 }
 
+.declarationTypeLabel {
+  width: 265px;
+}
+
 .declarationTypeInput {
     width: 35px;
 }
 
-.traderRefInput {
-    width: 265px;
-}
 
 .traderRefLabel {
-    margin-left: 100px;
+  margin-left: 100px;
+}
+
+.traderRefInput {
+    width: 265px;
 }
 
 .badgeLabel {
@@ -58,6 +63,10 @@
     font-size: 12px;
 }
 
+.partyLabelTitle {
+  font-weight: bold;
+}
+
 .shortCodeLabel {
     margin-left: 10px;
 }
@@ -75,7 +84,7 @@
 .nameInput {
     margin-top: 1px;
     margin-left: 3px;
-    width: 212px;
+    width: 150px;
 }
 
 .partyExpansionPanelSeperator{
